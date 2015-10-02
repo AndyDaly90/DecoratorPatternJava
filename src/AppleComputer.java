@@ -1,18 +1,18 @@
 /**
  * Created by Andrew on 02/10/2015.
  */
-public class AppleComputer extends ComputerFunctionDec {
+public class AppleComputer implements Computer {
     @Override
     public String getDesc() {
-        return tempComputer.getDesc() + " Apple Computer ";
+        return "Apple Computer";
     }
 
     @Override
     public double getCost() {
-        return tempComputer.getCost() + 25.00;
+        return 25.00;
     }
 
     public AppleComputer(Computer newComputer) {
-        super(newComputer);
+        super();
     }
 }

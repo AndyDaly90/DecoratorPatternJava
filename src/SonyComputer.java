@@ -1,18 +1,18 @@
 /**
  * Created by Andrew on 02/10/2015.
  */
-public class SonyComputer extends ComputerFunctionDec {
+public class SonyComputer implements Computer {
     @Override
     public String getDesc() {
-       return tempComputer.getDesc() +  " Sony Computer ";
+        return " Sony Computer ";
     }
 
     @Override
     public double getCost() {
-        return tempComputer.getCost() +  20.00;
+        return 20.00;
     }
 
     public SonyComputer(Computer newComputer) {
-        super(newComputer);
+        super();
     }
 }
