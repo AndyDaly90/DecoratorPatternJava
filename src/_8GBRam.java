@@ -1,9 +1,11 @@
 /**
  * Created by Andrew on 02/10/2015.
  */
-public class _8GBRam extends ComputerFunctionDec {
+public class _8GBRam extends ComputerDecorator {
     public _8GBRam(Computer newComputer) {
+
         super(newComputer);
+        System.out.println("Adding 8GB Ram");
     }
 
     @Override

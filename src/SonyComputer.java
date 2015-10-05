@@ -12,7 +12,4 @@ public class SonyComputer implements Computer {
         return 20.00;
     }
 
-    public SonyComputer(Computer newComputer) {
-        super();
-    }
 }

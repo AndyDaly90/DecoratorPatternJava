@@ -1,7 +1,7 @@
 /**
  * Created by Andrew on 02/10/2015.
  */
-public class i7Chip extends ComputerFunctionDec {
+public class i7Chip extends ComputerDecorator {
     public i7Chip(Computer newComputer) {
         super(newComputer);
         System.out.println("Adding i7 chip");

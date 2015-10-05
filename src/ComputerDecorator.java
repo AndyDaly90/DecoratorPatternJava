@@ -1,11 +1,11 @@
 /**
  * Created by Andrew on 02/10/2015.
  */
-public class ComputerFunctionDec implements Computer {
+public class ComputerDecorator implements Computer {
 
     protected Computer tempComputer;
 
-    public ComputerFunctionDec(Computer newComputer)
+    public ComputerDecorator(Computer newComputer)
     {
         tempComputer = newComputer;
     }

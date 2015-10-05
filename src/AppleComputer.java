@@ -12,7 +12,6 @@ public class AppleComputer implements Computer {
         return 25.00;
     }
 
-    public AppleComputer(Computer newComputer) {
-        super();
-    }
+
+
 }

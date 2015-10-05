@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f11dca5-b436-4265-81a9-4416790b52d6" name="Default" comment="" />
+    <list default="true" id="5f11dca5-b436-4265-81a9-4416790b52d6" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Andrew\IdeaProjects\DecoratorPattern\src\nullOp.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Andrew\IdeaProjects\DecoratorPattern\src\ComputerFunctionDec.java" afterPath="$PROJECT_DIR$/src/ComputerDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DecoratorPattern/AppleComputer.class" afterPath="$PROJECT_DIR$/out/production/DecoratorPattern/AppleComputer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DecoratorPattern/ComputerManufacturer.class" afterPath="$PROJECT_DIR$/out/production/DecoratorPattern/ComputerManufacturer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DecoratorPattern/DellComputer.class" afterPath="$PROJECT_DIR$/out/production/DecoratorPattern/DellComputer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DecoratorPattern/HPComputer.class" afterPath="$PROJECT_DIR$/out/production/DecoratorPattern/HPComputer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DecoratorPattern/SonyComputer.class" afterPath="$PROJECT_DIR$/out/production/DecoratorPattern/SonyComputer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DecoratorPattern/_8GBRam.class" afterPath="$PROJECT_DIR$/out/production/DecoratorPattern/_8GBRam.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppleComputer.java" afterPath="$PROJECT_DIR$/src/AppleComputer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ComputerManufacturer.java" afterPath="$PROJECT_DIR$/src/ComputerManufacturer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DellComputer.java" afterPath="$PROJECT_DIR$/src/DellComputer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HPComputer.java" afterPath="$PROJECT_DIR$/src/HPComputer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SonyComputer.java" afterPath="$PROJECT_DIR$/src/SonyComputer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_4GBRam.java" afterPath="$PROJECT_DIR$/src/_4GBRam.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_8GBRam.java" afterPath="$PROJECT_DIR$/src/_8GBRam.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/graphicsCard.java" afterPath="$PROJECT_DIR$/src/graphicsCard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/i3Chip.java" afterPath="$PROJECT_DIR$/src/i3Chip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/i5Chip.java" afterPath="$PROJECT_DIR$/src/i5Chip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/i7Chip.java" afterPath="$PROJECT_DIR$/src/i7Chip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="DecoratorPattern.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,18 +44,7 @@
     <favorites_list name="DecoratorPattern" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ComputerManufacturer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ComputerManufacturer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7923729">
-              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,22 +68,29 @@
         <option value="$PROJECT_DIR$/src/ComputerFunctionDec.java" />
         <option value="$PROJECT_DIR$/src/nullOp.java" />
         <option value="$PROJECT_DIR$/src/graphicsCard.java" />
-        <option value="$PROJECT_DIR$/src/ComputerManufacturer.java" />
         <option value="$PROJECT_DIR$/src/i3Chip.java" />
         <option value="$PROJECT_DIR$/src/i5Chip.java" />
-        <option value="$PROJECT_DIR$/src/_8GBRam.java" />
         <option value="$PROJECT_DIR$/src/_4GBRam.java" />
-        <option value="$PROJECT_DIR$/src/AppleComputer.java" />
-        <option value="$PROJECT_DIR$/src/DellComputer.java" />
-        <option value="$PROJECT_DIR$/src/HPComputer.java" />
-        <option value="$PROJECT_DIR$/src/SonyComputer.java" />
         <option value="$PROJECT_DIR$/src/i7Chip.java" />
+        <option value="$PROJECT_DIR$/src/AppleComputer.java" />
+        <option value="$PROJECT_DIR$/src/SonyComputer.java" />
+        <option value="$PROJECT_DIR$/src/HPComputer.java" />
+        <option value="$PROJECT_DIR$/src/DellComputer.java" />
+        <option value="$PROJECT_DIR$/src/ComputerManufacturer.java" />
+        <option value="$PROJECT_DIR$/src/_8GBRam.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -106,6 +124,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -115,34 +134,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DecoratorPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DecoratorPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DecoratorPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DecoratorPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,6 +147,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.ComputerManufacturer">
     <configuration default="false" name="ComputerManufacturer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -405,6 +400,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -432,41 +433,44 @@
       <created>1443815775106</created>
       <option name="number" value="Default" />
       <updated>1443815775106</updated>
-      <workItem from="1443815779200" duration="7287000" />
+      <workItem from="1443815779200" duration="8999000" />
+      <workItem from="1443827846100" duration="847000" />
+      <workItem from="1444055745125" duration="508000" />
+      <workItem from="1444084123319" duration="1242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7287000" />
+    <option name="totallyTimeSpent" value="11596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42020667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29850745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -495,6 +499,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -509,6 +521,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ComputerManufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComputerDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppleComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComputerManufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://MODULES/mdl-DecoratorPattern">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -519,9 +571,10 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="104.5" y="17.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="18.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -535,64 +588,17 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="44.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="45.0" />
           <SelectedNodes />
           <Categories>
+            <Category>Fields</Category>
             <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
             <Category>Properties</Category>
             <Category>Methods</Category>
-            <Category>Constructors</Category>
-            <Category>Fields</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ComputerFunctionDec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28605768">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18389423">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nullOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphicsCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,8 +607,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,70 +618,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SonyComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10143198">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HPComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16229117">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_8GBRam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14200477">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DellComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12171838">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppleComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10143198">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_4GBRam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20286396">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,9 +629,103 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
           <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ComputerManufacturer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ComputerManufacturer</OriginalElement>
+          <nodes>
+            <node x="" y="">ComputerManufacturer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9" x="94.0" y="18.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComputerDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppleComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComputerManufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_4GBRam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_8GBRam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/HPComputer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>HPComputer</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="462.0" y="46.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphicsCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,38 +735,197 @@
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="" y="">i7Chip</node>
-            <node x="" y="">i3Chip</node>
-            <node x="" y="">HPComputer</node>
-            <node x="" y="">_8GBRam</node>
-            <node x="" y="">SonyComputer</node>
-            <node x="" y="">i5Chip</node>
-            <node x="" y="">nullOp</node>
-            <node x="" y="">DellComputer</node>
-            <node x="" y="">Computer</node>
-            <node x="" y="">graphicsCard</node>
-            <node x="" y="">ComputerFunctionDec</node>
-            <node x="" y="">_4GBRam</node>
-            <node x="" y="">AppleComputer</node>
+            <node x="1038.25" y="95.0">ComputerDecorator</node>
+            <node x="1589.5" y="217.0">i7Chip</node>
+            <node x="980.5000000000001" y="217.0">i3Chip</node>
+            <node x="307.0000000000001" y="108.5">HPComputer</node>
+            <node x="1176.5" y="217.0">_8GBRam</node>
+            <node x="1393.5" y="217.0">i5Chip</node>
+            <node x="626.7058823529414" y="359.0">ComputerManufacturer</node>
+            <node x="446.0000000000001" y="108.5">SonyComputer</node>
+            <node x="0.0" y="108.5">DellComputer</node>
+            <node x="389.2500000000001" y="0.0">Computer</node>
+            <node x="739.5000000000001" y="217.0">graphicsCard</node>
+            <node x="522.5000000000001" y="217.0">_4GBRam</node>
+            <node x="147.0000000000001" y="108.5">AppleComputer</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7739130434782608" x="1518.0786516853932" y="277.5" />
-          <SelectedNodes />
+          <edges>
+            <edge source="ComputerManufacturer" target="DellComputer">
+              <point x="-84.60000000000014" y="-17.5" />
+              <point x="636.1058823529413" y="339.0" />
+              <point x="63.5" y="339.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="SonyComputer" target="Computer">
+              <point x="0.0" y="-17.5" />
+              <point x="512.0000000000001" y="75.0" />
+              <point x="447.5833333333334" y="75.0" />
+              <point x="8.333333333333314" y="17.5" />
+            </edge>
+            <edge source="ComputerManufacturer" target="HPComputer">
+              <point x="-47.0" y="-17.5" />
+              <point x="673.7058823529414" y="319.0" />
+              <point x="366.5000000000001" y="319.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="ComputerManufacturer" target="SonyComputer">
+              <point x="-28.200000000000045" y="-17.5" />
+              <point x="692.5058823529414" y="309.0" />
+              <point x="512.0000000000001" y="309.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="ComputerManufacturer" target="graphicsCard">
+              <point x="9.399999999999977" y="-17.5" />
+              <point x="730.1058823529413" y="299.0" />
+              <point x="850.0000000000001" y="299.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="ComputerDecorator" target="Computer">
+              <point x="-66.75" y="-31.0" />
+              <point x="1105.0" y="65.0" />
+              <point x="464.2500000000001" y="65.0" />
+              <point x="25.0" y="17.5" />
+            </edge>
+            <edge source="DellComputer" target="Computer">
+              <point x="0.0" y="-17.5" />
+              <point x="63.5" y="55.0" />
+              <point x="397.5833333333334" y="55.0" />
+              <point x="-41.666666666666686" y="17.5" />
+            </edge>
+            <edge source="graphicsCard" target="ComputerDecorator">
+              <point x="0.0" y="-31.0" />
+              <point x="850.0000000000001" y="187.0" />
+              <point x="1105.0" y="187.0" />
+              <point x="-66.75" y="31.0" />
+            </edge>
+            <edge source="ComputerManufacturer" target="i3Chip">
+              <point x="28.200000000000045" y="-17.5" />
+              <point x="748.9058823529415" y="309.0" />
+              <point x="1068.5" y="309.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="AppleComputer" target="Computer">
+              <point x="0.0" y="-17.5" />
+              <point x="217.0000000000001" y="65.0" />
+              <point x="414.2500000000001" y="65.0" />
+              <point x="-25.0" y="17.5" />
+            </edge>
+            <edge source="i7Chip" target="ComputerDecorator">
+              <point x="0.0" y="-31.0" />
+              <point x="1677.5" y="177.0" />
+              <point x="1283.0" y="177.0" />
+              <point x="111.25" y="31.0" />
+            </edge>
+            <edge source="i5Chip" target="ComputerDecorator">
+              <point x="0.0" y="-31.0" />
+              <point x="1481.5" y="187.0" />
+              <point x="1238.5" y="187.0" />
+              <point x="66.75" y="31.0" />
+            </edge>
+            <edge source="i3Chip" target="ComputerDecorator">
+              <point x="0.0" y="-31.0" />
+              <point x="1068.5" y="197.0" />
+              <point x="1149.5" y="197.0" />
+              <point x="-22.25" y="31.0" />
+            </edge>
+            <edge source="ComputerManufacturer" target="_8GBRam">
+              <point x="47.0" y="-17.5" />
+              <point x="767.7058823529414" y="319.0" />
+              <point x="1275.0" y="319.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="ComputerManufacturer" target="i5Chip">
+              <point x="65.79999999999995" y="-17.5" />
+              <point x="786.5058823529414" y="329.0" />
+              <point x="1481.5" y="329.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="ComputerManufacturer" target="i7Chip">
+              <point x="84.60000000000002" y="-17.5" />
+              <point x="805.3058823529414" y="339.0" />
+              <point x="1677.5" y="339.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="_8GBRam" target="ComputerDecorator">
+              <point x="0.0" y="-31.0" />
+              <point x="1275.0" y="197.0" />
+              <point x="1194.0" y="197.0" />
+              <point x="22.25" y="31.0" />
+            </edge>
+            <edge source="ComputerManufacturer" target="_4GBRam">
+              <point x="-9.400000000000091" y="-17.5" />
+              <point x="711.3058823529414" y="299.0" />
+              <point x="621.0000000000001" y="299.0" />
+              <point x="0.0" y="31.0" />
+            </edge>
+            <edge source="_4GBRam" target="ComputerDecorator">
+              <point x="0.0" y="-31.0" />
+              <point x="621.0000000000001" y="177.0" />
+              <point x="1060.5" y="177.0" />
+              <point x="-111.25" y="31.0" />
+            </edge>
+            <edge source="HPComputer" target="Computer">
+              <point x="0.0" y="-17.5" />
+              <point x="366.5000000000001" y="75.0" />
+              <point x="430.9166666666668" y="75.0" />
+              <point x="-8.333333333333314" y="17.5" />
+            </edge>
+            <edge source="ComputerManufacturer" target="AppleComputer">
+              <point x="-65.80000000000007" y="-17.5" />
+              <point x="654.9058823529413" y="329.0" />
+              <point x="217.0000000000001" y="329.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8" x="305.5" y="169.5" />
+          <SelectedNodes>
+            <node>i7Chip</node>
+          </SelectedNodes>
           <Categories>
-            <Category>Fields</Category>
             <Category>Constructors</Category>
-            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ComputerManufacturer.java">
+    <entry file="file://$PROJECT_DIR$/src/diagram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SonyComputer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7923729">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.33938295">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HPComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33938295">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DellComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09255898">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27767694">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

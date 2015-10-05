@@ -13,7 +13,5 @@ public class HPComputer implements Computer{
         return 10.00;
     }
 
-    public HPComputer(Computer newComputer) {
-        super();
-    }
+
 }

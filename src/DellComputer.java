@@ -11,9 +11,6 @@ public class DellComputer implements Computer {
     @Override
     public double getCost() {
         return 25.00;
-    }
 
-    public DellComputer(Computer newComputer) {
-        super();
     }
 }

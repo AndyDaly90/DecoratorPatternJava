@@ -1,7 +1,7 @@
 /**
  * Created by Andrew on 02/10/2015.
  */
-public class graphicsCard extends ComputerFunctionDec {
+public class graphicsCard extends ComputerDecorator {
     public graphicsCard(Computer newComputer) {
         super(newComputer);
         System.out.println("Adding graphics card");
